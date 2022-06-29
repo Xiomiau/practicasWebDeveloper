@@ -1,5 +1,9 @@
 *{
+    color: white;
     margin: 0;
     padding:0;
-    background-color: lightcoral;
-}
+    background-image: url(https://wallpaperaccess.com/full/1433800.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    }
