@@ -1,12 +1,22 @@
+font-family: 'Anek Malayalam', sans-serif;
+font-family: 'Fira Sans Condensed', sans-serif;
 *{
-    color: white;
+    box-sizing: border-box;
     margin: 0;
     padding:0;
-    background-image: url(https://wallpaperaccess.com/full/1433800.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 0;
-    }
-    htnml{
-        font-size: 62.5%;
-    }
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.5rem;
+}
+.header{
+    margin: 2rem;
+    background-color: antiquewhite;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
