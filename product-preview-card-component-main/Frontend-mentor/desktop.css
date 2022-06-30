@@ -5,7 +5,7 @@
         padding: 0;
         box-sizing: border-box;
     }
-    :root{
+root{
         /* Primary*/
     
     --Dark-cyan: hsl(158, 36%, 37%);
