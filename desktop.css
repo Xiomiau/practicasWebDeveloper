@@ -1,39 +1,43 @@
-@media (min-width:640px) {
+@media (min-width:640px){
+
+html{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/793/5/131/minimalism-digital-art-simple-background-cats-eyes-hd-wallpaper-preview.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: auto;
+}
+body{
+    font-size: 1rem;
     
-    
-    html{
-        font-size: 62.5%;
-    }
-    
-    body{
-        font-size: 1.5rem;
-    }
-    .header{
-        font-size: 3.5rem;
-        position: relative;
-        width: fit-content;
-        margin: 4rem auto;
-        background-color: antiquewhite;
-        padding: 1rem;
-        border-radius: 1rem;
-        text-align: center;
-        font-family:'Anek Malayalam', sans-serif; ;
-    }
-    .header:hover{
-        background-color: lightcoral;
-    }
-    
-    .link{
-        font-size: 2.5rem;
-        font-family: 'Fira Sans Condensed', sans-serif;
-        text-decoration: none;
-        display: inline-block;
-        justify-content: space-between;
-        padding: 2rem;
-        background-color: hsla(0, 0%, 100%, 0.267);
-        color: aliceblue;
-        border-radius: 2rem;
-        padding: 1rem;
-        margin: 1rem;
-    }
+}
+.link{
+    -webkit-box-shadow: 5px 5px 15px 5px #535151, 5px 5px 15px 5px #cfecee, -4px -2px 15px 5px rgba(161, 228, 227, 0.28); 
+box-shadow: 5px 5px 15px 5px #03263d, 5px 5px 15px 5px #131212, -4px -2px 15px 5px rgba(203, 241, 241, 0.28);
+
+    font-size: 1.5rem;
+    margin: 1rem;
+    width: fit-content;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-around;
+    background-color: hsla(0, 0%, 100%, 0.267);
+    color: hsl(204, 80%, 71%);
+    border-radius: 2rem;
+    padding: .7rem;
+}
+.header{
+    -webkit-box-shadow: 5px 5px 15px 5px #535151, 5px 5px 15px 5px #cfecee, -4px -2px 15px 5px rgba(161, 228, 227, 0.28); 
+box-shadow: 5px 5px 15px 5px #03263d, 5px 5px 15px 5px #131212, -4px -2px 15px 5px rgba(203, 241, 241, 0.28);
+    color: white;
+    font-weight: 500;
+    padding: .5rem;
+    font-size: 3rem;
+    position: relative;
+    width: fit-content;
+    margin: 2rem auto;
+    background: radial-gradient(circle, rgba(130,132,249,0.9444152661064426) 0%, rgba(155,255,252,0.8413173652694611) 100%); 
+    border-radius: 1rem;
+    text-align: center;
+    font-family:'Anek Malayalam', sans-serif;
+}
 }
