@@ -1,0 +1,43 @@
+@media (min-width:640px)
+{
+    .container{
+        width: 300px;
+        margin: 100px auto 20px;
+}
+
+.eye{
+    margin: 130px;
+    display: none;
+}
+.eq:hover{
+    display: block;
+}
+
+
+.view-container{
+    width: 300px;
+    height: 304px;
+    position: absolute;
+}
+
+.view-container:hover{
+    background-color: hsla(180, 100%, 50%, 0.291);
+    background-image: url(/images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: 130px;
+}
+
+.eq:hover{ 
+    cursor: pointer;
+}
+
+.title:hover{
+    color: cyan;
+    cursor: pointer;
+}
+.span2:hover{
+    color: cyan;
+    cursor: pointer;
+}
+
+}
