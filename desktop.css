@@ -1,0 +1,39 @@
+@media (min-width:640px) {
+    
+    
+    html{
+        font-size: 62.5%;
+    }
+    
+    body{
+        font-size: 1.5rem;
+    }
+    .header{
+        font-size: 3.5rem;
+        position: relative;
+        width: fit-content;
+        margin: 4rem auto;
+        background-color: antiquewhite;
+        padding: 1rem;
+        border-radius: 1rem;
+        text-align: center;
+        font-family:'Anek Malayalam', sans-serif; ;
+    }
+    .header:hover{
+        background-color: lightcoral;
+    }
+    
+    .link{
+        font-size: 2.5rem;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        text-decoration: none;
+        display: inline-block;
+        justify-content: space-between;
+        padding: 2rem;
+        background-color: hsla(0, 0%, 100%, 0.267);
+        color: aliceblue;
+        border-radius: 2rem;
+        padding: 1rem;
+        margin: 1rem;
+    }
+}

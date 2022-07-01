@@ -1,0 +1,47 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1rem;
+    background: rgb(0, 0, 0);
+    background-image: url();
+
+    
+}
+.header{
+    color: white;
+    font-weight: 500;
+    padding: .5rem;
+    font-size: 2rem;
+    position: relative;
+    width: fit-content;
+    margin: 1rem auto;
+    background: rgb(130,132,249);
+    background: radial-gradient(circle, rgba(130,132,249,0.9444152661064426) 0%, rgba(155,255,252,0.8413173652694611) 100%);    border-radius: 1rem;
+    text-align: center;
+    font-family:'Anek Malayalam', sans-serif;
+}
+.header:hover{
+    background-color: lightcoral;
+}
+
+.link{
+    margin: .5rem;
+    width: fit-content;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(0, 0%, 100%, 0.267);
+    color: rgb(236, 239, 241);
+    border-radius: 2rem;
+    padding: .5rem;
+}
