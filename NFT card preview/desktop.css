@@ -22,7 +22,7 @@
 
 .view-container:hover{
     background-color: hsla(180, 100%, 50%, 0.291);
-    background-image: url(/images/icon-view.svg);
+    background-image: url("/NFT card preview/images/icon-view.svg");
     background-repeat: no-repeat;
     background-position: 130px;
 }
