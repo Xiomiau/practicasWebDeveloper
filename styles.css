@@ -1,5 +1,5 @@
-font-family: 'Anek Malayalam', sans-serif;
-font-family: 'Fira Sans Condensed', sans-serif;
+
+;
 *{
     box-sizing: border-box;
     margin: 0;
@@ -12,11 +12,31 @@ html{
 
 body{
     font-size: 1.5rem;
+    background-image: url(https://img.wallpapersafari.com/desktop/1440/900/34/69/r9hU0Y.jpg);
 }
 .header{
-    margin: 2rem;
+    font-size: 3.5rem;
+    position: relative;
+    width: fit-content;
+    margin: 4rem auto;
     background-color: antiquewhite;
     padding: 1rem;
     border-radius: 1rem;
     text-align: center;
+    font-family:'Anek Malayalam', sans-serif; ;
 }
+.header:hover{
+    background-color: lightcoral;
+}
+
+.link{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: hsla(0, 0%, 100%, 0.267);
+    color: aliceblue;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem;
