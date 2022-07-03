@@ -66,6 +66,8 @@ html{
 .search-container input{
     width: 100%;
     border: none;
+
+    outline: none;
 }
 .logo{
     margin: 0 auto;
