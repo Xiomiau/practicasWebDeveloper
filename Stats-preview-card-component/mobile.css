@@ -48,7 +48,7 @@ body {
     background-image: linear-gradient(
         hsl(277, 64%, 45%, 0.500), 
         hsla(277, 65%, 45%, 0.500)),
-    url(/images/image-header-mobile.jpg);
+    url(/Stats-preview-card-component/images/image-header-mobile.jpg);
 }
 
 
