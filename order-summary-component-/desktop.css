@@ -27,10 +27,6 @@ body {
     padding-right: 1.5rem;
 }
 
-.main-container a {
-    margin-left: 12rem;
-}
-
 button {
     box-shadow: -2px 7px 20px -3px rgba(0,0,0,0.55);
     margin-bottom: 2rem;
