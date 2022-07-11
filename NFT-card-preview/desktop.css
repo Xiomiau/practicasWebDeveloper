@@ -1,8 +1,12 @@
-@media (min-width:640px)
+@media (min-width:1440px)
 {
+    body {
+        padding: 0;
+        
+    }
     .container{
         width: 300px;
-        margin: 100px auto 20px;
+        margin: 0 auto;
 }
 
 .eye{
@@ -22,7 +26,7 @@
 
 .view-container:hover{
     background-color: hsla(180, 100%, 50%, 0.291);
-    background-image: url("/NFT card preview/images/icon-view.svg");
+    background-image: url("/NFT-card-preview/images/icon-view.svg");
     background-repeat: no-repeat;
     background-position: 130px;
 }
