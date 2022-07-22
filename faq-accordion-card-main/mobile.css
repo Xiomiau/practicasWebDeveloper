@@ -43,13 +43,13 @@ body {height: 100vh;
 .woman{
     width: 24rem;
     height: 18rem;
-    background-image: url(/images/illustration-woman-online-mobile.svg);
+    background-image: url(/faq-accordion-card-main/images/illustration-woman-online-mobile.svg);
     background-repeat: no-repeat;
 }
 .shadow {
     width: 24rem;
     height: 15rem;
-    background-image: url(/images/bg-pattern-mobile.svg);
+    background-image: url(/faq-accordion-card-main/images/bg-pattern-mobile.svg);
     background-repeat: no-repeat;
     position: absolute;
     top: 11rem;
@@ -89,6 +89,8 @@ details[open] > summary:first-of-type{
 
 summary:hover{
     color: var(--Soft-red);
+    cursor: pointer;
+
 }
 
 

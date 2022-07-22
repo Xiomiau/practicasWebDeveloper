@@ -4,7 +4,7 @@ body {
 
 .container {
     width: 90rem;
-    margin: 10rem auto;
+    margin: 8rem auto;
     display: grid;
     grid-template-columns: 40rem 50rem ;
     background-color: var(--Light-grayish-blue);
@@ -15,6 +15,7 @@ body {
 .askContainer {
     margin: 0 0 0 8rem;
     grid-column: 2;
+    overflow: hidden;
 }
 .woman, .shadow {
     display: none;
@@ -22,44 +23,47 @@ body {
 .woman {
     z-index: 1;
     display: flex;
-    background-image: url(/images/illustration-woman-online-desktop.svg);
+    background-image: url(/faq-accordion-card-main/images/illustration-woman-online-desktop.svg);
     width: 48rem;
     height: 36rem;
     position: relative;
     background-repeat: no-repeat;
     left: -7rem;
     top: 4rem;
+
+
 }
 .shadow {
     display: flex;
     width: 98rem;
     height: 90rem;
-    background-image: url(/images/bg-pattern-desktop.svg);
+    background-image: url(/faq-accordion-card-main/images/bg-pattern-desktop.svg);
     top: -30rem;
     left: -60rem;
     background-repeat: no-repeat;
+    overflow: hidden;
+
+
 
 }
 
 .womanShadow {
-    width: 48rem;
-    height: 49rem;
+    width: 60rem;
+    height: 50rem;
     position: absolute;
-    overflow: hidden;
     top: 25rem;
-    left: 31rem;
+    left: 27rem;
+    overflow: hidden;
 }
 
 .box {
-    position: absolute;
-    background-image: url(/images/illustration-box-desktop.svg);
+    position: relative;
+    background-image: url(/faq-accordion-card-main/images/illustration-box-desktop.svg);
     background-repeat: no-repeat;
-    width:150px;
-    height:188px;
-    border: 1px solid red;
+    height: 188px;
     background-position: center;
-    top: 42rem;
-    left: 21rem;
+    left: -22rem;
+    top: 20rem;
     z-index: 3;
 }
 
@@ -67,5 +71,15 @@ body {
     text-align: left;
     margin: 3rem 0;
     font-size: 3rem;
+}
+
+@media (min-width:1441px) {
+
+    .womanShadow {
+        left: 51rem;    }
+    
+    .box {
+        top: 15rem;
+    }
 }
 
