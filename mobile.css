@@ -22,11 +22,10 @@ body{
     top: 20rem;
 }
 .link{
-    box-shadow: 5px 5px 7px 5px #03263d, 5px 5px 7px 5px #131212, -4px -2px 7px 5px rgba(203, 241, 241, 0.28);
-    font-size: 1.5rem;
-    margin: 2rem;
+    box-shadow: 5px 5px 5px 3px #03263d, 5px 5px 5px 3px #131212, -4px -2px 5px 3px rgba(203, 241, 241, 0.28);
+    font-size: 1rem;
+    margin: 1rem;
     width: fit-content;
-    font-family: 'Fira Sans Condensed', sans-serif;
     text-decoration: none;
     display: inline-block;
     justify-content: space-around;
