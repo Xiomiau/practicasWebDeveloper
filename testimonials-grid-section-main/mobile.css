@@ -81,7 +81,7 @@ body {
 .card1 {
     background-color: var(--Moderate-violet);
     color: var(--White);
-    background-image: url(/images/bg-pattern-quotation.svg);
+    background-image: url(/testimonials-grid-section-main/images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-origin: content-box;
     background-position: top right;
@@ -90,7 +90,7 @@ body {
 
 
 .profile1 {
-    background-image: url(/images/image-daniel.jpg);
+    background-image: url(/testimonials-grid-section-main/images/image-daniel.jpg);
 }
 
 .card2 {
@@ -100,7 +100,7 @@ body {
 }
 
 .profile2 {
-    background-image: url(/images/image-jonathan.jpg);
+    background-image: url(/testimonials-grid-section-main/images/image-jonathan.jpg);
 
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 .profile3 {
-    background-image: url(/images/image-jeanette.jpg);
+    background-image: url(/testimonials-grid-section-main/images/image-jeanette.jpg);
 }
 
 .card4 {
@@ -119,11 +119,11 @@ body {
 }
 
 .profile4 {
-    background-image: url(/images/image-patrick.jpg);
+    background-image: url(/testimonials-grid-section-main/images/image-patrick.jpg);
 }
 
 .profile5 {
-    background-image: url(/images/image-kira.jpg);
+    background-image: url(/testimonials-grid-section-main/images/image-kira.jpg);
 }
 
 footer {
