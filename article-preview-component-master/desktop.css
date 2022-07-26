@@ -112,36 +112,5 @@ margin-left: 3rem;
 
     .card {
         max-width: 1100px;
-
-    /* }
-    .profile-desktop {
-        display: grid;
-        grid-row: 4;
-        grid-column: 2;
-        grid-template-rows: 30px 30px;
-        grid-template-columns: 60px 230px 100px;
-        column-gap: 10px;
-        place-content: center;
-        letter-spacing: 0;
-    }
-
-    .share-desktop {
-        display: flex;
-        flex-direction: row;
-        justify-content:center;
-        background-color: var(--Very-Dark-Grayish-Blue); 
-        grid-column: 2;
-        justify-items: center;
-        height: 50px;
-        width: 250px;
-        border-radius: 1rem;
-        position: relative;
-        left: 19rem;
-        bottom: 9rem;
-    
-    }
-
-    .inactive {
-        display: none;
-    } */
+       
 }
