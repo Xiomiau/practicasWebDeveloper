@@ -67,14 +67,16 @@ body{
 .welcome {
     font-size: 2rem;
     margin: 3rem 2rem;
+    background-color: #03263d53;
+    border-radius: 1rem;
 
 }
 
 .welcomeP {
     margin: 2rem 2rem;
-    width: 800px;
+    width: 700px;
     height: fit-content;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: left;
     line-height: 2.5rem;
 }
@@ -91,6 +93,14 @@ body{
 
 .frontendcontainer {
     margin-bottom: 4rem;
+}
+
+.frontend-title, .platzi-title {
+    background-color: #03263d53;
+    border-radius: 1rem;
+} {
+    background-color: #03263d53;
+    border-radius: 1rem;
 }
 
 .me {
