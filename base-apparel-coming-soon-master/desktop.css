@@ -11,7 +11,7 @@
 }
 
 .hero-desktop {
-    background-image: url(/images/hero-desktop.jpg);
+    background-image: url(/base-apparel-coming-soon-master/images/hero-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     grid-column: 2;

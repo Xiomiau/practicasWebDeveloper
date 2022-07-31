@@ -22,7 +22,7 @@ html {
 .logo {
     width: 150px;
     height: 25px;
-    background-image: url(/images/logo.svg);
+    background-image: url(/base-apparel-coming-soon-master/images/logo.svg);
     margin: 30px 30px;
     background-size: contain;
     background-repeat: no-repeat;
