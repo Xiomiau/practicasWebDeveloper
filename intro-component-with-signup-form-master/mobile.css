@@ -15,7 +15,7 @@
 
 body {
     background-color: var(--Red);
-    background-image: url(/images/bg-intro-mobile.png);
+    background-image: url(/intro-component-with-signup-form-master/images/bg-intro-desktop.png);
     font-family: 'Poppins', sans-serif;
 }
 
