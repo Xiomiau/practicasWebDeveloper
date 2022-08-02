@@ -37,7 +37,7 @@ function validateEmpty (valueInput,divInput,divError,nameInput) {
 }
 function showError (divInput,divError,error) {
     divInput.style.border='1px solid red';
-    divError.innerHTML = `<img id="icon-error" class="error-icon" src="/images/icon-error.svg" alt="icon error"> <p id="nameError" class="text-error"> ${error} </p>`;
+    divError.innerHTML = `<img id="icon-error" class="error-icon" src="/intro-component-with-signup-form-master/images/icon-error.svg" alt="icon error"> <p id="nameError" class="text-error"> ${error} </p>`;
 } 
 
 function hideError(divInput,divError) {
