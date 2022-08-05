@@ -65,7 +65,10 @@ h2, h3{
     align-items: center;
     height: auto;
     border-radius: 25px;
-    overflow-x:scroll;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    border: 2px solid white;
 
 }
 
