@@ -25,20 +25,20 @@
                 <div class="mascota-container">
                     <label for="hipodoge">Hipodoge</label>
                 <input id="hipodoge" type="radio" name="mascotas">
-                <img  width="200px" src="/mokepon/images/mokepons_mokepon_hipodoge_attack.png" alt="Hipodoge">
+                <img  width="250px" src="/mokepon/images/mokepons_mokepon_hipodoge_attack.png" alt="Hipodoge">
                 </div>
         
                 <div class="mascota-container">
                     <label for="capipepo">Capipepo</label>
                 <input id="capipepo" type="radio" name="mascotas">
-                <img width="200px" src="/mokepon/images/mokepons_mokepon_capipepo_attack.png" alt="Hipodoge">
+                <img width="250px" src="/mokepon/images/mokepons_mokepon_capipepo_attack.png" alt="Hipodoge">
                 </div>
     
         
                 <div class="mascota-container">
                     <label for="ratigueya">Ratigueya</label>
                 <input id="ratigueya" type="radio" name="mascotas">
-                <img width="200px" src="/mokepon/images/mokepons_mokepon_ratigueya_attack.png" alt="Hipodoge">
+                <img width="250px" src="/mokepon/images/mokepons_mokepon_ratigueya_attack.png" alt="Hipodoge">
                 </div>
             </div>
         
@@ -54,25 +54,34 @@
                             <button class="ataques" id="boton-fuego">Fuego 🔥</button>
                             <button class="ataques" id="boton-agua">Agua 💧 </button>
                             <button class="ataques" id="boton-tierra">Tierra 🌿</button>
-                            <section id="section-reiniciar">
-                                <button id="reiniciarBtn">Jugar de nuevo</button>
-                            </section>
+                            
 
                         </div>
                 
-                        <div class="mensajes-container">
-                            <h2>COMBATE:</h2>
-                            <div class="vidas">
-                            <p>Tu Mokepon <span id="mascota-jugador"></span> tiene <span id="spanVidaJugador">3</span>  vidas</p>
-                            <p>La Mokepon <span id="mascota-enemigo"></span> de tu enemigo tiene <span id="spanVidaEnemigo">3</span> vidas</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-
-                    <section id="mensajes">
-
+                        <h2>COMBATE:</h2>
+                        <section id="section-reiniciar">
+                            <button id="reiniciarBtn">Jugar de nuevo</button>
                         </section>
+                        <div class="vidas-ataques">
+
+
+                                        <div class="vidas vidaJugador">
+                                            <p class="vidas-parrafo">Tu Mokepon <span id="mascota-jugador"></span> tiene <span id="spanVidaJugador">3</span>  vidas</p>
+                                        </div>
+
+
+                                        <div class="vidas vidaEnemigo">
+                                                <p class="vidas-parrafo">El Mokepon <span id="mascota-enemigo"></span> de tu enemigo tiene <span id="spanVidaEnemigo">3</span> vidas</p>
+                                        </div>
+                                
+                                
+                                        <div id="mensajes">
+                                        <!-- aqui van los ataques de cada jugador -->
+                                        </div>
+                                        
+                        </div>
+    
+                        </div>
         </section>
     </main>
 

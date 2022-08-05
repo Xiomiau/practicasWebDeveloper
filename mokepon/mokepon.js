@@ -170,9 +170,9 @@ function combate() {
 
 function revisarVidas(){
     if(vidasJugador==0){
-        crearMensajeFinal('Oww Perdiste 😢');
+        crearMensajeFinal('JA,JA! mamaste! Perdiste.');
     } else if (vidasEnemigo==0){
-        crearMensajeFinal('GANASTE 🥳');
+        crearMensajeFinal('Eres la mera vena, ganaste.');
 
     }
 }
@@ -188,11 +188,11 @@ function crearMensaje() {
     parrafoAtaqueJugador.setAttribute('class', 'parrafoAtaqueJugador');
 
     if (ataqueJugador=='FUEGO 🔥'){
-        parrafoAtaqueJugador.style.boxShadow='1px -1px 10px 7px rgb(240, 58, 45)';
+        parrafoAtaqueJugador.style.boxShadow='1px -1px 4px 3px rgb(240, 58, 45)';
     } else if (ataqueJugador=='AGUA 💧') {
-        parrafoAtaqueJugador.style.boxShadow = '1px -1px 10px 7px rgba(111,210,232,1)';
+        parrafoAtaqueJugador.style.boxShadow = '1px -1px 4px 3px rgba(111,210,232,1)';
     } else if (ataqueJugador=='TIERRA 🌿') {
-        parrafoAtaqueJugador.style.boxShadow = '1px -1px 10px 7px rgb(170, 84, 4)';
+        parrafoAtaqueJugador.style.boxShadow = '1px -1px 4px 3px rgb(170, 84, 4)';
     }
 
 
@@ -201,11 +201,11 @@ function crearMensaje() {
     parrafoAtaqueEnemigo.innerHTML=' El enemigo atacó con ' + ataqueContrario;
     parrafoAtaqueEnemigo.setAttribute('class', 'parrafoAtaqueEnemigo')
     if (ataqueContrario=='FUEGO 🔥'){
-        parrafoAtaqueEnemigo.style.boxShadow='1px -1px 10px 7px rgb(240, 58, 45)';
+        parrafoAtaqueEnemigo.style.boxShadow='1px -1px 4px 3px rgb(240, 58, 45)';
     } else if (ataqueContrario =='AGUA 💧') {
-        parrafoAtaqueEnemigo.style.boxShadow = '1px -1px 10px 7px rgba(111,210,232,1)';
+        parrafoAtaqueEnemigo.style.boxShadow = '1px -1px 4px 3px rgba(111,210,232,1)';
     } else if (ataqueContrario =='TIERRA 🌿') {
-        parrafoAtaqueEnemigo.style.boxShadow = '1px -1px 10px 7px rgb(170, 84, 4)';
+        parrafoAtaqueEnemigo.style.boxShadow = '1px -1px 4px 3px rgb(170, 84, 4)';
     }
 
     mensajesSection.appendChild(parrafoAtaqueJugador);

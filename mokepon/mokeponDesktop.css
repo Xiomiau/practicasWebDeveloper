@@ -1,0 +1,7 @@
+#mensajes{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    color: white;
+    margin: 40px;
+    font-family: 'Catamaran', sans-serif;
+}
