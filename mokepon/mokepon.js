@@ -3,16 +3,22 @@ let ataqueContrario
 let vidasJugador = 3;
 let vidasEnemigo = 3;
 
+
+const hipodoge = document.querySelector('#hipodoge');
+const capipepo = document.querySelector('#capipepo');
+const ratigueya = document.querySelector('#ratigueya');
+const spanMascotaJugador=document.querySelector('#mascota-jugador');
+
+
 function iniciarJuego() {
 
     let seccionAtaque = document.querySelector('#atack');
     seccionAtaque.style.display='none';
     
-    
+    hipodoge.addEventListener('click', seleccionarMascotaJugador);
+    capipepo.addEventListener('click', seleccionarMascotaJugador);
+    ratigueya.addEventListener('click', seleccionarMascotaJugador);
 
-
-    let botonMascotaJugador = document.querySelector('#boton-mascota');
-    botonMascotaJugador.addEventListener('click', seleccionarMascotaJugador);
 
     let botonFuego=document.querySelector('#boton-fuego');
     botonFuego.addEventListener('click', ataqueFuego)
@@ -43,33 +49,26 @@ function seleccionarMascotaJugador() {
     seccionMascota.style.display='none';
 
     // apuntadores de las mascotas
-    const hipodoge = document.querySelector('#hipodoge');
-    const capipepo = document.querySelector('#capipepo');
-    const ratigueya = document.querySelector('#ratigueya');
-    const langostelvis = document.querySelector('#langostelvis');
-    const tucapalma = document.querySelector('#tucapalma');
-    const pydos = document.querySelector('#pydos');
-    const spanMascotaJugador=document.querySelector('#mascota-jugador');
+    
 
     // Condicional para mensaje de elección de mascota
     if(hipodoge.checked) {
-        //alert("Seleccionaste a: Hipodoge");
+        seccionAtaque.style.display='flex';
+        seccionMascota.style.display='none';
         spanMascotaJugador.innerHTML="Hipodoge"
+
+
     } else if (capipepo.checked) {
-        //alert("Seleccionaste a: Capipepo");
+        seccionAtaque.style.display='flex';
+        seccionMascota.style.display='none';
         spanMascotaJugador.innerHTML="Capipepo"
+
+
     } else if (ratigueya.checked) {
-        //alert("Seleccionaste a: Ratigueya");
+        seccionAtaque.style.display='flex';
+        seccionMascota.style.display='none';
         spanMascotaJugador.innerHTML="Ratigueya"
-    } else if (langostelvis.checked) {
-        //alert("Seleccionaste a: Langostelvis");
-        spanMascotaJugador.innerHTML="Langostelvis"
-    } else if (tucapalma.checked) {
-        //alert("Seleccionaste a: Tucapalma");
-        spanMascotaJugador.innerHTML="Tucapalma"
-    } else if (pydos.checked) {
-        //alert("Seleccionaste a: Pydos");
-        spanMascotaJugador.innerHTML="Pydos"
+
     }
     else {
         alert('Primero debes elegir tu combatiente')
@@ -178,13 +177,41 @@ function revisarVidas(){
     }
 }
 
-function crearMensaje(resultado) {
+function crearMensaje() {
 
     let mensajesSection = document.querySelector('#mensajes');
 
-    let = parrafo = document.createElement('p')
-    parrafo.innerHTML= 'Tu mokepon atacó con '+  ataqueJugador + ' el enemigo atacó con ' + ataqueContrario + '- ' + resultado ;
-    mensajesSection.appendChild(parrafo);
+    let = parrafoAtaqueJugador = document.createElement('p')
+    let = parrafoAtaqueEnemigo = document.createElement('p')
+
+    parrafoAtaqueJugador.innerHTML= 'Tu mokepon atacó con '+  ataqueJugador;
+    parrafoAtaqueJugador.setAttribute('class', 'parrafoAtaqueJugador');
+
+    if (ataqueJugador=='FUEGO 🔥'){
+        parrafoAtaqueJugador.style.boxShadow='1px -1px 10px 7px rgb(240, 58, 45)';
+    } else if (ataqueJugador=='AGUA 💧') {
+        parrafoAtaqueJugador.style.boxShadow = '1px -1px 10px 7px rgba(111,210,232,1)';
+    } else if (ataqueJugador=='TIERRA 🌿') {
+        parrafoAtaqueJugador.style.boxShadow = '1px -1px 10px 7px rgb(170, 84, 4)';
+    }
+
+
+
+
+    parrafoAtaqueEnemigo.innerHTML=' El enemigo atacó con ' + ataqueContrario;
+    parrafoAtaqueEnemigo.setAttribute('class', 'parrafoAtaqueEnemigo')
+    if (ataqueContrario=='FUEGO 🔥'){
+        parrafoAtaqueEnemigo.style.boxShadow='1px -1px 10px 7px rgb(240, 58, 45)';
+    } else if (ataqueContrario =='AGUA 💧') {
+        parrafoAtaqueEnemigo.style.boxShadow = '1px -1px 10px 7px rgba(111,210,232,1)';
+    } else if (ataqueContrario =='TIERRA 🌿') {
+        parrafoAtaqueEnemigo.style.boxShadow = '1px -1px 10px 7px rgb(170, 84, 4)';
+    }
+
+    mensajesSection.appendChild(parrafoAtaqueJugador);
+    mensajesSection.appendChild(parrafoAtaqueEnemigo);
+
+
 
     
 }

@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/mokepon/mokepon.css">
+    <link rel="stylesheet" href="/mokepon/mokeponMobile.css">
+    <link rel="stylesheet" href="/mokepon/mokeponDesktop.css" media="(min-width:1440px)">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap" rel="stylesheet">
@@ -23,34 +25,23 @@
                 <div class="mascota-container">
                     <label for="hipodoge">Hipodoge</label>
                 <input id="hipodoge" type="radio" name="mascotas">
-                <img  width="250px" src="/mokepon/images/mokepons_mokepon_hipodoge_attack.png" alt="Hipodoge">
+                <img  width="150px" src="/mokepon/images/mokepons_mokepon_hipodoge_attack.png" alt="Hipodoge">
                 </div>
         
                 <div class="mascota-container">
                     <label for="capipepo">Capipepo</label>
                 <input id="capipepo" type="radio" name="mascotas">
-                <img width="250px" src="/mokepon/images/mokepons_mokepon_capipepo_attack.png" alt="Hipodoge">
+                <img width="150px" src="/mokepon/images/mokepons_mokepon_capipepo_attack.png" alt="Hipodoge">
                 </div>
     
         
                 <div class="mascota-container">
                     <label for="ratigueya">Ratigueya</label>
                 <input id="ratigueya" type="radio" name="mascotas">
-                <img width="250px" src="/mokepon/images/mokepons_mokepon_ratigueya_attack.png" alt="Hipodoge">
+                <img width="150px" src="/mokepon/images/mokepons_mokepon_ratigueya_attack.png" alt="Hipodoge">
                 </div>
             </div>
-
-    
-            <!-- <label for="langostelvis">Langostelvis</label>
-            <input id="langostelvis" type="radio" name="mascotas">
-    
-            <label for="tucapalma">tucapalma</label>
-            <input id="tucapalma" type="radio" name="mascotas">
-    
-            <label for="pydos">pydos</label>
-            <input id="pydos" type="radio" name="mascotas"> -->
-            
-            <button id="boton-mascota">Seleccionar</button>
+        
         </section>
 
     
@@ -58,31 +49,30 @@
             
             <h3>Elije tu ataque:</h3>
             
-                    <div class="card-pet">
+                    <div class="card-ataques">
                         <div class="botones-ataque">
                             <button class="ataques" id="boton-fuego">Fuego 🔥</button>
                             <button class="ataques" id="boton-agua">Agua 💧 </button>
                             <button class="ataques" id="boton-tierra">Tierra 🌿</button>
+                            <section id="section-reiniciar">
+                                <button id="reiniciarBtn">Jugar de nuevo</button>
+                            </section>
+
                         </div>
                 
                         <div class="mensajes-container">
+                            <h2>COMBATE:</h2>
                             <div class="vidas">
-                            <p>Tu mascota <span id="mascota-jugador"></span> tiene <span id="spanVidaJugador">3</span>  vidas</p>
-                            <p>La mascota <span id="mascota-enemigo"></span> de tu enemigo tiene <span id="spanVidaEnemigo">3</span> vidas</p>
+                            <p>Tu Mokepon <span id="mascota-jugador"></span> tiene <span id="spanVidaJugador">3</span>  vidas</p>
+                            <p>La Mokepon <span id="mascota-enemigo"></span> de tu enemigo tiene <span id="spanVidaEnemigo">3</span> vidas</p>
                             </div>
-
-                            <section id="mensajes"></section>
-
-
-                        
                         </div>
-                        <section id="section-reiniciar">
-                            <button id="reiniciarBtn">Jugar de nuevo</button>
-                        </section>
                         
-                        
-
                     </div>
+
+                    <section id="mensajes">
+
+                        </section>
         </section>
     </main>
 
