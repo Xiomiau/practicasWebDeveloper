@@ -170,9 +170,9 @@ function combate() {
 
 function revisarVidas(){
     if(vidasJugador==0){
-        crearMensajeFinal('JA,JA! mamaste! Perdiste.');
+        crearMensajeFinal('BUUU, perdiste 😢');
     } else if (vidasEnemigo==0){
-        crearMensajeFinal('Eres la mera vena, ganaste.');
+        crearMensajeFinal('Yaaaii, ganaste. 🎉');
 
     }
 }
