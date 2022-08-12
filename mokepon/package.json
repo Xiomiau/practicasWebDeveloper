@@ -1,0 +1,23 @@
+{
+  "name": "programar",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000p\u0000r\u0000o\u0000g\u0000r\u0000a\u0000m\u0000a\u0000c\u0000i\u0000-\u0000n\u0000-\u0000b\u0000-\u0000s\u0000i\u0000c\u0000a\u0000-\u0000p\u0000l\u0000a\u0000t\u0000z\u0000i\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xiomiau/programaci-n-b-sica-platzi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xiomiau/programaci-n-b-sica-platzi/issues"
+  },
+  "homepage": "https://github.com/Xiomiau/programaci-n-b-sica-platzi#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}

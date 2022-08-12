@@ -4,90 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/mokepon/mokeponMobile.css">
-    <link rel="stylesheet" href="/mokepon/mokeponDesktop.css" media="(min-width:1440px)">
-
+    <link rel="stylesheet" href="/programaci-n-b-sica-platzi/mokepon/mokeponMobile.css">
+    <link rel="stylesheet" href="/programaci-n-b-sica-platzi/mokepon/mokeponDesktop.css" media="(min-width:1440px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap" rel="stylesheet">
     <title>Mokepon</title>
 </head>
 <body>
-    <h1 class="title">MOKEPON! 🔥💧🌿 </h1>
-
-    
-        <section id="pet">
-
-                <h2>Elige a tu combatiente:</h2>
-            
-    
-            <div class="card-pet-slider">
-                <div class="mascota-container">
-                    <label for="hipodoge">Hipodoge</label>
-                <input id="hipodoge" type="radio" name="mascotas">
-                <img  width="250px" src="/mokepon/images/mokepons_mokepon_hipodoge_attack.png" alt="Hipodoge">
+<h1 class="title">MOKEPON! 🔥💧🌿 </h1>
+<section id="pet">
+        <h2>Elige a tu combatiente:</h2>
+                <div class="card-pet-slider">
+                        <div id="contenedor-tarjetas" class="mascota-container"> 
+                            <!-- aqui van las tarjetas de los mokepones con js -->
+                        </div>
                 </div>
-        
-                <div class="mascota-container">
-                    <label for="capipepo">Capipepo</label>
-                <input id="capipepo" type="radio" name="mascotas">
-                <img width="250px" src="/mokepon/images/mokepons_mokepon_capipepo_attack.png" alt="Hipodoge">
-                </div>
+</section>
+
+<section id="ver-mapa">
+    <h1>Recorre el mapa con tu Mokepon</h1>
+    <canvas  id="mapa"></canvas>
+    <div class="contMov">
+        <button onmouseup="detenerMovimiento()" class="mov" onmousedown="moverIzquierda()">Izquierda</button>
+        <button onmouseup="detenerMovimiento()" class="mov" onmousedown="moverAbajo()">Abajo</button>
+        <button onmouseup="detenerMovimiento()" class="mov" onmousedown="moverArriba()">Arriba</button>
+        <button onmouseup="detenerMovimiento()" class="mov" onmousedown="moverDerecha()">Derecha</button>
     
-        
-                <div class="mascota-container">
-                    <label for="ratigueya">Ratigueya</label>
-                <input id="ratigueya" type="radio" name="mascotas">
-                <img width="250px" src="/mokepon/images/mokepons_mokepon_ratigueya_attack.png" alt="Hipodoge">
+    </div>
+
+
+
+</section>
+
+<section id="atack">
+    <h3>Elije tu ataque:</h3>
+    <div class="card-ataques">
+                <div id="contenedorAtaques" class="botones-ataque"></div>
+                <h2>COMBATE:</h2>
+                <section id="section-reiniciar">
+                    <button id="reiniciarBtn">Jugar de nuevo</button>
+                </section>                       
+                <div class="vidas-ataques">
+                    
+                    <div class="vidas vidaJugador">
+                        <p class="vidas-parrafo"><span id="mascota-jugador"></span> <span id="spanVidaJugador">0</span></p>
+                    </div>
+                        <section id="seccionAtaquesJugadores">
+                            <div id="ataque-jugador"></div>
+                            <div id="ataque-enemy"></div>
+                        </section>
+                <div class="vidas vidaEnemigo">
+                    <p class="vidas-parrafo"><span id="mascota-enemigo"></span> <span id="spanVidaEnemigo">0</span></p>
                 </div>
             </div>
-        
-        </section>
+        </div>
+        <div id="mensajes">
+            <!-- aqui van los ataques de cada jugador -->
+        </div>    
+    </section>
 
-    
-        <section id="atack">
-            
-            <h3>Elije tu ataque:</h3>
-            
-                    <div class="card-ataques">
-                        <div class="botones-ataque">
-                            <button class="ataques" id="boton-fuego">Fuego 🔥</button>
-                            <button class="ataques" id="boton-agua">Agua 💧 </button>
-                            <button class="ataques" id="boton-tierra">Tierra 🌿</button>
-                            
-
-                        </div>
-                
-                        <h2>COMBATE:</h2>
-                        <section id="section-reiniciar">
-                            <button id="reiniciarBtn">Jugar de nuevo</button>
-                        </section>
-                        <div class="vidas-ataques">
-
-
-                                        <div class="vidas vidaJugador">
-                                            <p class="vidas-parrafo">Tu Mokepon <span id="mascota-jugador"></span> tiene <span id="spanVidaJugador">3</span>  vidas</p>
-                                        </div>
-
-
-                                        <div class="vidas vidaEnemigo">
-                                                <p class="vidas-parrafo">El Mokepon <span id="mascota-enemigo"></span> de tu enemigo tiene <span id="spanVidaEnemigo">3</span> vidas</p>
-                                        </div>
-                                
-                                
-                                        <div id="mensajes">
-                                        <!-- aqui van los ataques de cada jugador -->
-                                        </div>
-                                        
-                        </div>
-    
-                        </div>
-        </section>
-    </main>
-
-    
-
-
-    <script src="/mokepon/mokepon.js"></script>
+    <script src="/programaci-n-b-sica-platzi/mokepon/mokepon.js"></script>
 </body>
 </html>
+
