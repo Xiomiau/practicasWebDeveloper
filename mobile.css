@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: somber, sans-serif;
+
+}
+body{
+    background: linear-gradient(90deg, rgb(3, 8, 8) 26%, rgb(0, 0, 0) 100%);
+    color: rgb(242, 252, 249);
+    
+}
+
+.michi {
+    z-index: -1;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: url(/images/michi_asomado.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20rem;
+}
+.link{
+    box-shadow: 5px 5px 5px 3px #03263d, 5px 5px 5px 3px #131212, -4px -2px 5px 3px rgba(203, 241, 241, 0.28);
+    font-size: 1rem;
+    margin: 1rem;
+    width: fit-content;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-around;
+    background-color: hsla(0, 0%, 100%, 0.267);
+    color: hsl(204, 80%, 71%);
+    border-radius: 2rem;
+    padding: .7rem;
+}
+.logo{
+    background-image: url(/images/xiomiaubyn2.png);
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.liContainer{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.liItem {
+    margin: 1rem;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.welcome {
+    font-size: 1.5rem;
+    margin: 2rem 2rem;
+
+}
+
+.welcomeP {
+    margin: 2rem 2rem;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 2rem;
+}
+
+.practicas {
+    background-color: hsla(208, 100%, 97%, 0.156);
+    margin: 2rem 2rem;
+    font-size: 1rem;
+    padding: 2rem;
+    height: fit-content;
+    border-radius: 2rem;
+
+}
+
+.practicas img {
+    width: 200px;
+}
+.frontendcontainer {
+    margin-bottom: 2rem;
+}
+
+.me {
+    margin: 2rem;
+    background-color: hsla(208, 100%, 97%, 0.156);
+    border-radius: 2rem;
+    height: fit-content;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 248, 220);
+    font-weight: bold;
+}
+a:hover {
+    color: yellow;
+}

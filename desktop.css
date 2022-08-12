@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: somber, sans-serif;
+
+}
+body{
+    background: linear-gradient(90deg, rgb(3, 8, 8) 26%, rgb(0, 0, 0) 100%);
+    color: rgb(242, 252, 249);
+    
+}
+
+.michi {
+    z-index: -1;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url(/images/michi_asomado.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 2rem;
+}
+.link{
+    box-shadow: 5px 5px 7px 5px #03263d, 5px 5px 7px 5px #131212, -4px -2px 7px 5px rgba(203, 241, 241, 0.28);
+    font-size: 1.5rem;
+    margin: 2rem;
+    width: fit-content;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-around;
+    background-color: hsla(0, 0%, 100%, 0.267);
+    color: hsl(204, 80%, 71%);
+    border-radius: 2rem;
+    padding: .7rem;
+}
+.logo{
+    background-image: url(/images/xiomiaubyn2.png);
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 1px solid rgb(6, 118, 118);
+}
+
+
+.liContainer{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.liItem {
+    margin: 1rem;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.welcome {
+    font-size: 2rem;
+    margin: 3rem 2rem;
+    background-color: #03263d53;
+    border-radius: 1rem;
+
+}
+
+.welcomeP {
+    margin: 2rem 2rem;
+    width: 700px;
+    height: fit-content;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 2.5rem;
+}
+
+.practicas {
+    background-color: hsla(208, 100%, 97%, 0.156);
+    margin: 2rem 2rem;
+    font-size: 1.3rem;
+    padding: 2rem;
+    height: fit-content;
+    border-radius: 2rem;
+
+}
+
+.frontendcontainer {
+    margin-bottom: 4rem;
+}
+
+.frontend-title, .platzi-title {
+    background-color: #03263d53;
+    border-radius: 1rem;
+} 
+{
+    background-color: #03263d53;
+    border-radius: 1rem;
+}
+
+.me {
+    margin: 2rem;
+    background-color: hsla(208, 100%, 97%, 0.156);
+    border-radius: 2rem;
+    height: fit-content;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 248, 220);
+    font-weight: bold;
+}
+a:hover {
+    color: yellow;
+}
