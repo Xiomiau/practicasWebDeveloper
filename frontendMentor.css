@@ -29,13 +29,15 @@ html {
     margin: 20px;
 }
 
+
+
 main a {
     display: flex;
-    flex-direction: column;
     text-decoration: none;
     color: wheat;
     background-color: rgba(128, 0, 128, 0.509);
     margin: 10px;
     padding: 5px;
     border-radius: 10px;
+    width: fit-content;
 }

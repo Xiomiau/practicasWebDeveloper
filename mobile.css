@@ -21,7 +21,9 @@ html {
     background-size: contain;
     background-position: center;
     margin: 0 auto;
+    cursor: pointer;
 }
+
 
 .liContainer {
     display: flex;
