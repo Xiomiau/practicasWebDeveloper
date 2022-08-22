@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 html {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1539%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/rect%3e%3ccircle r='53.145' cx='363.16' cy='292.53' fill='url(%23SvgjsLinearGradient1540)'%3e%3c/circle%3e%3ccircle r='32.02' cx='258.18' cy='206.22' fill='url(%23SvgjsLinearGradient1541)'%3e%3c/circle%3e%3ccircle r='106.205' cx='46.98' cy='351.23' fill='url(%23SvgjsLinearGradient1542)'%3e%3c/circle%3e%3ccircle r='46.57' cx='640.35' cy='798.22' fill='%2343468b'%3e%3c/circle%3e%3ccircle r='97.895' cx='1335.53' cy='702.05' fill='url(%23SvgjsLinearGradient1543)'%3e%3c/circle%3e%3ccircle r='103.53' cx='622.08' cy='730.97' fill='url(%23SvgjsLinearGradient1544)'%3e%3c/circle%3e%3ccircle r='60.13' cx='1195.53' cy='635.37' fill='%2343468b'%3e%3c/circle%3e%3ccircle r='67.915' cx='1363.58' cy='555.2' fill='url(%23SvgjsLinearGradient1545)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1539'%3e%3crect width='1920' height='1080' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='256.87' y1='292.53' x2='469.45000000000005' y2='292.53' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1540'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(72%2c 70%2c 135%2c 1)' offset='0.83'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='194.14' y1='270.26' x2='322.22' y2='142.18' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1541'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(126%2c 98%2c 134%2c 1)' offset='0.72'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='-165.43' y1='351.23' x2='259.39' y2='351.23' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1542'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1139.74' y1='702.05' x2='1531.32' y2='702.05' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1543'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='415.02000000000004' y1='730.97' x2='829.1400000000001' y2='730.97' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1544'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1227.75' y1='555.2' x2='1499.41' y2='555.2' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1545'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
     background-size: cover;
@@ -35,55 +29,13 @@ html {
     margin: 20px;
 }
 
-.mainContainer {
+main a {
     display: flex;
     flex-direction: column;
-    font-size: 14px;
-    text-align: left;
-    width: 85%;
-    margin: 10px auto;
-}
-.me {
-    background-color: rgba(234, 83, 248, 0.178);
-    border-radius: 20px;
-
-}
-.welcome {
-    color: hsla(300, 80%, 71%, 0.938);
-    margin: 20px;
-}
-
-.welcomeP {
-    letter-spacing: 1px;
-    line-height: 20px;
-    margin: 30px 10px;
-}
-
-.welcomeP a {
-    color: white;
-}
-
-.practicas {
-    display: flex;
-    flex-direction: column;
-    margin: 0 30px;
-    background-color: rgba(234, 83, 248, 0.178);
-    align-items: center;
-    border-radius: 20px;
-
-}
-
-.frontend-title, .platzi-title {
-    padding: 20px;
-    text-align: center;
-}
-
-img{
-    background-color: rgba(247, 243, 243, 0.5);
-    border-radius: 20px;
+    text-decoration: none;
+    color: wheat;
+    background-color: rgba(128, 0, 128, 0.509);
+    margin: 10px;
     padding: 5px;
-}
-
-.platziContainer {
-    margin: 30px;
+    border-radius: 10px;
 }

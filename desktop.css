@@ -1,0 +1,11 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.me {
+    width: 50%;
+    color: rgb(244, 179, 244);
+    font-size: 16px;
+}
+
