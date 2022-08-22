@@ -71,3 +71,9 @@ html {
 .frontend-title, .platzi-title {
     padding: 20px;
 }
+
+img{
+    background-color: rgba(14, 6, 6, 0.5);
+    border-radius: 20px;
+    padding: 5px;
+}
