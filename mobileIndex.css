@@ -63,8 +63,9 @@ html {
 }
 
 .practicas {
+    justify-content: center;
     margin: 30px;
-    background-color: rgba(234, 83, 248, 0.178);
+    /* background-color: rgba(234, 83, 248, 0.178); */
 
 }
 
@@ -73,7 +74,7 @@ html {
 }
 
 img{
-    background-color: rgba(247, 243, 243, 0.5);
+    background-color: rgba(247, 243, 243, 0.411);
     border-radius: 20px;
-    padding: 5px;
+    padding: 10px;
 }
