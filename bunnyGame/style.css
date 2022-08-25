@@ -8,6 +8,10 @@ body {
   font-family: 'Courier New', Courier, monospace;
 
 }
+
+h2 {
+  color: white;
+}
 .phone {
   counter-reset: Puntos;
   height: 600px;
