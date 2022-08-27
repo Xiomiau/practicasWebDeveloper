@@ -31,7 +31,7 @@ html {
 
 
 
-main a {
+ a {
     display: flex;
     text-decoration: none;
     color: wheat;
