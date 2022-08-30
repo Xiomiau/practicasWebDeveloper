@@ -87,7 +87,7 @@ h1 {
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
     background-color: antiquewhite;
-    background-image: url(/assets/images/cover-large.png);
+    background-image: url(/MAQUETACION-CSS/assets/images/cover-large.png);
     background-position: center;
     background-size: cover; 
 }
