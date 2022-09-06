@@ -21,7 +21,7 @@ html {
 .logo {
     width: 60px;
     height: 30px;
-    background-image: url(/images/logo.svg);
+    background-image: url(/Ping-single-column-coming-soon-page/images/logo.svg);
     background-repeat: no-repeat;
     background-position: center;
     margin: 70px auto 30px;
@@ -86,7 +86,7 @@ button {
 .img {
     width: 85%;
     height: 300px;
-    background-image: url(/images/illustration-dashboard.png);
+    background-image: url(/Ping-single-column-coming-soon-page/images/illustration-dashboard.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -101,15 +101,15 @@ button {
 }
 
 .fb {
-    background-image: url(/images/104498_facebook_icon.png);
+    background-image: url(/Ping-single-column-coming-soon-page/images/104498_facebook_icon.png);
 }
 
 .tw {
-    background-image: url(/images/104501_twitter_bird_icon.png);
+    background-image: url(/Ping-single-column-coming-soon-page/images/104501_twitter_bird_icon.png);
 }
 
 .ins{
-    background-image: url(/images/1161953_instagram_icon.png);
+    background-image: url(/Ping-single-column-coming-soon-page/images/1161953_instagram_icon.png);
 }
 .iconContainer {
     background-size: 15px;
